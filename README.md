@@ -1,8 +1,8 @@
-🩺 Diabetic Retinopathy Classification
+###🩺 Diabetic Retinopathy Classification
 
 This project focuses on classifying Diabetic Retinopathy (DR) from retinal images using deep learning techniques. The model is trained on a pre-processed dataset (Gaussian filtered fundus images) and can classify between different stages of DR.
 
-📌 Dataset
+##📌 Dataset
 
 The dataset used is from Kaggle:
 🔗 Diabetic Retinopathy 224x224 Gaussian Filtered
@@ -27,7 +27,7 @@ Class labels:
 
 Additionally, a binary version (No_DR vs DR) is also created.
 
-⚙️ Project Workflow
+##⚙️ Project Workflow
 
 Data Preprocessing
 
@@ -61,7 +61,7 @@ Export
 
 Saved the trained model (.h5 / .tflite) for deployment
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 
 Python
 
@@ -73,7 +73,7 @@ Scikit-learn
 
 OpenCV
 
-📊 Results
+##📊 Results
 
 The model successfully classifies diabetic retinopathy into multiple stages.
 
@@ -81,7 +81,7 @@ Accuracy and loss plots show effective training.
 
 Class distribution and confusion matrix give insights into model performance.
 
-🚀 How to Run
+##🚀 How to Run
 
 Clone this repository
 
@@ -106,7 +106,7 @@ or
 
 python train.py
 
-📌 Future Work
+##📌 Future Work
 
 Experiment with Transfer Learning (ResNet, EfficientNet, InceptionV3)
 
